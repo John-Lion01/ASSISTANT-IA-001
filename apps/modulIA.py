@@ -4,7 +4,7 @@ import pyttsx3
 import speech_recognition as sr
 import webbrowser
 
-conn = False
+conn = True
 
 # Ecouter les commandes
 def ecouter():
