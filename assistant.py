@@ -9,10 +9,6 @@ from apps.gptAPI import*
 BASE_DIR = os.path.dirname(__file__)
 SAVE_TEXTE = os.path.join(BASE_DIR, "Save/note.txt")
 
-# from dotenv import load_dotenv
-# load_dotenv()
-# openai.api_key = os.getenv("OPENAI_API_KEY")
-
 
 def assistant():
     nom_utilisateur = "John"
